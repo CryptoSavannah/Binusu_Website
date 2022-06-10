@@ -1,0 +1,31 @@
+<svg width="587" height="587" viewBox="0 0 587 587" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="293.5" cy="293.5" r="231.395" stroke="url(#paint0_radial)" stroke-width="1.89151"/>
+<circle cx="293.5" cy="293.5" r="292.554" stroke="url(#paint1_radial)" stroke-width="1.89151"/>
+<circle cx="293.5" cy="293.5" r="170.236" stroke="url(#paint2_radial)" stroke-width="1.89151"/>
+<circle cx="293.5" cy="293.5" r="107.816" stroke="url(#paint3_radial)" stroke-width="1.89151"/>
+<circle cx="341.102" cy="454.594" r="10.0881" fill="#F6F8FB"/>
+<circle cx="146.277" cy="39.7218" r="7.56606" fill="#F6F8FB"/>
+<circle cx="464.367" cy="137.765" r="12.9253" fill="#F6F8FB"/>
+<circle cx="293.499" cy="61.9337" r="7.88131" fill="#F8F9FB"/>
+<circle cx="191.043" cy="499.36" r="6.30505" fill="#F7F8FA"/>
+<circle cx="515.753" cy="355.605" r="6.30505" fill="#F6F8FB"/>
+<circle cx="489.271" cy="513.861" r="14.5016" fill="#F6F8FB"/>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(281.296 288.319) rotate(22.5636) scale(252.348)">
+<stop offset="0.739583" stop-color="#F6F8FB" stop-opacity="0.45"/>
+<stop offset="0.78125" stop-color="#F1F3F5" stop-opacity="0.85"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(278.083 286.955) rotate(22.5636) scale(318.773)">
+<stop offset="0.739583" stop-color="#F6F8FB" stop-opacity="0.45"/>
+<stop offset="0.78125" stop-color="#F1F3F5" stop-opacity="0.85"/>
+</radialGradient>
+<radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(284.509 289.683) rotate(22.5636) scale(185.923)">
+<stop offset="0.739583" stop-color="#F6F8FB" stop-opacity="0.45"/>
+<stop offset="0.78125" stop-color="#F1F3F5" stop-opacity="0.85"/>
+</radialGradient>
+<radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(287.787 291.075) rotate(22.5636) scale(118.128)">
+<stop offset="0.739583" stop-color="#F6F8FB" stop-opacity="0.45"/>
+<stop offset="0.78125" stop-color="#F1F3F5" stop-opacity="0.85"/>
+</radialGradient>
+</defs>
+</svg>

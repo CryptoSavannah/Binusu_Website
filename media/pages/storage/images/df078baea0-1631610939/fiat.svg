@@ -1,0 +1,19 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24 48C37.2548 48 48 37.2548 48 24C48 10.7452 37.2548 0 24 0C10.7452 0 0 10.7452 0 24C0 37.2548 10.7452 48 24 48Z" fill="#FFF1B8"/>
+<mask id="path-2-inside-1" fill="white">
+<rect x="5.99902" y="13.4116" width="36.0006" height="21.1768" rx="1"/>
+</mask>
+<rect x="5.99902" y="13.4116" width="36.0006" height="21.1768" rx="1" fill="#FFD52F" stroke="#CCA301" stroke-width="3.6" mask="url(#path-2-inside-1)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="5" y="13" width="37" height="22">
+<rect x="5.99902" y="13.4116" width="36.0006" height="21.1768" rx="1" fill="#CCA301"/>
+</mask>
+<g mask="url(#mask0)">
+<circle cx="40.4096" cy="13.9413" r="5.82362" fill="#CCA301"/>
+<circle cx="40.4096" cy="34.0595" r="5.82362" fill="#CCA301"/>
+<circle cx="6.5287" cy="13.9411" r="5.82362" fill="#CCA301"/>
+<circle cx="6.52773" cy="34.0595" r="5.82362" fill="#CCA301"/>
+</g>
+<ellipse cx="23.9993" cy="24.0005" rx="5.2942" ry="5.2942" fill="#CCA301"/>
+<ellipse cx="34.6276" cy="24.0002" rx="2.1569" ry="2.11768" fill="#CCA301"/>
+<ellipse cx="13.4508" cy="24.0002" rx="2.1569" ry="2.11768" fill="#CCA301"/>
+</svg>
