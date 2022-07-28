@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-HeavyItalic.eot');
+    src: local('Neutro Heavy Italic'), local('Neutro-HeavyItalic'),
+        url('Neutro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-HeavyItalic.woff2') format('woff2'),
+        url('Neutro-HeavyItalic.woff') format('woff'),
+        url('Neutro-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Light.eot');
+    src: local('Neutro Light'), local('Neutro-Light'),
+        url('Neutro-Light.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Light.woff2') format('woff2'),
+        url('Neutro-Light.woff') format('woff'),
+        url('Neutro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Italic.eot');
+    src: local('Neutro Italic'), local('Neutro-Italic'),
+        url('Neutro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Italic.woff2') format('woff2'),
+        url('Neutro-Italic.woff') format('woff'),
+        url('Neutro-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-BlackItalic.eot');
+    src: local('Neutro Black Italic'), local('Neutro-BlackItalic'),
+        url('Neutro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-BlackItalic.woff2') format('woff2'),
+        url('Neutro-BlackItalic.woff') format('woff'),
+        url('Neutro-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Thin.eot');
+    src: local('Neutro Thin'), local('Neutro-Thin'),
+        url('Neutro-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Thin.woff2') format('woff2'),
+        url('Neutro-Thin.woff') format('woff'),
+        url('Neutro-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-DemiBold.eot');
+    src: local('Neutro DemiBold'), local('Neutro-DemiBold'),
+        url('Neutro-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-DemiBold.woff2') format('woff2'),
+        url('Neutro-DemiBold.woff') format('woff'),
+        url('Neutro-DemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-DemiBoldItalic.eot');
+    src: local('Neutro DemiBold Italic'), local('Neutro-DemiBoldItalic'),
+        url('Neutro-DemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-DemiBoldItalic.woff2') format('woff2'),
+        url('Neutro-DemiBoldItalic.woff') format('woff'),
+        url('Neutro-DemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Bold.eot');
+    src: local('Neutro Bold'), local('Neutro-Bold'),
+        url('Neutro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Bold.woff2') format('woff2'),
+        url('Neutro-Bold.woff') format('woff'),
+        url('Neutro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-BoldItalic.eot');
+    src: local('Neutro Bold Italic'), local('Neutro-BoldItalic'),
+        url('Neutro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-BoldItalic.woff2') format('woff2'),
+        url('Neutro-BoldItalic.woff') format('woff'),
+        url('Neutro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-ThinItalic.eot');
+    src: local('Neutro Thin Italic'), local('Neutro-ThinItalic'),
+        url('Neutro-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-ThinItalic.woff2') format('woff2'),
+        url('Neutro-ThinItalic.woff') format('woff'),
+        url('Neutro-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-MediumItalic.eot');
+    src: local('Neutro Medium Italic'), local('Neutro-MediumItalic'),
+        url('Neutro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-MediumItalic.woff2') format('woff2'),
+        url('Neutro-MediumItalic.woff') format('woff'),
+        url('Neutro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Regular.eot');
+    src: local('Neutro Regular'), local('Neutro-Regular'),
+        url('Neutro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Regular.woff2') format('woff2'),
+        url('Neutro-Regular.woff') format('woff'),
+        url('Neutro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Black.eot');
+    src: local('Neutro Black'), local('Neutro-Black'),
+        url('Neutro-Black.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Black.woff2') format('woff2'),
+        url('Neutro-Black.woff') format('woff'),
+        url('Neutro-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Heavy.eot');
+    src: local('Neutro Heavy'), local('Neutro-Heavy'),
+        url('Neutro-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Heavy.woff2') format('woff2'),
+        url('Neutro-Heavy.woff') format('woff'),
+        url('Neutro-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-LightItalic.eot');
+    src: local('Neutro Light Italic'), local('Neutro-LightItalic'),
+        url('Neutro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-LightItalic.woff2') format('woff2'),
+        url('Neutro-LightItalic.woff') format('woff'),
+        url('Neutro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Neutro';
+    src: url('Neutro-Medium.eot');
+    src: local('Neutro Medium'), local('Neutro-Medium'),
+        url('Neutro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Neutro-Medium.woff2') format('woff2'),
+        url('Neutro-Medium.woff') format('woff'),
+        url('Neutro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+

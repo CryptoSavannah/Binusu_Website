@@ -1,0 +1,1244 @@
+#logout-smallScreen,
+#input-boxes2,
+#add,
+#signin,
+#signup,
+#req-btn,
+#to-buy,
+.err,
+#logout-smallscreen,
+#small-form, #try-again {
+  display: none;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.right_col.right_col_exchange {
+  height: 100%;
+}
+
+.reset-btn:hover,
+#reset_req:hover,
+#amount,
+#receive,
+#confirm:hover,
+.top_nav .nav>li.links>a,
+#cancelBtn,
+#reset-btn,
+#req-btn {
+  color: #000;
+}
+
+#reset-btn,
+#req-btn {
+  background: #ffe560;
+}
+
+#ok {
+  background: #ffe560;
+  color: black;
+  padding: 4px 26px;
+  border-radius: 2px;
+}
+
+#reset-btn {
+  margin-bottom: 10px;
+}
+
+.err {
+  color: rgb(246, 220, 220);
+  padding: 18px;
+  font-weight: 800;
+}
+
+#qtn {
+  color: white;
+  margin: 15px auto 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+
+#loginBtn {
+  padding: 8px;
+  font-size: 16px;
+  margin: 10px auto;
+  width: 100%;
+  background: none;
+  color: white;
+}
+
+.btn.white-btn {
+  background: inherit;
+  color: white;
+}
+
+#forgot-ps {
+  padding-top: 30px;
+}
+
+
+.top_nav .nav>li.links>a {
+  font-size: 15px;
+  text-transform: capitalize;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.top_nav .nav>li.links>a:hover {
+  color: #ffe560;
+  background-color: black;
+}
+
+/*Chrome*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  input[type='range'] {
+    overflow: hidden;
+    width: 40px;
+    -webkit-appearance: initial;
+    /* background-color: #838384; */
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  input[disabled],::placeholder{
+    cursor: default;
+    font-weight: bold;
+    color: #474747 !important;
+}
+  
+  input[type='range']::-webkit-slider-runnable-track {
+    height: 2px;
+    -webkit-appearance: none;
+    background: transparent;
+    margin-top: -1px;
+    cursor: pointer;
+    background-color: #fae263;
+    border-style: none;
+    border-radius: 1.3px;
+  }
+
+  progress {
+    -webkit-appearance: none;
+  }
+
+  input[type='range']::-webkit-progress-value {
+    background-color: #000;
+  }
+
+  /* input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}   */
+
+  input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 11px;
+    width: 11px;
+    border-radius: 5px;
+    background: #ffffff;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+  }
+
+}
+/** FF*/
+input[type=range]::-moz-range-thumb {
+width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: pointer;
+background:white
+}
+
+input[type="range"]::-moz-range-progress {
+background-color: #fae263; 
+}
+input[type="range"]::-moz-range-track {  
+background-color: #fae263;
+}
+/* IE*/
+input[type=range]::-ms-thumb {
+  width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: pointer;
+background:white
+}
+input[type="range"]::-ms-fill-lower {
+background-color: #fae263; 
+}
+input[type="range"]::-ms-fill-upper {  
+background-color: #fae263;
+}
+
+#range {
+  border-style: none;
+background: transparent;
+width: 100%
+}
+
+
+#edit-order {
+  padding: 8px;
+  background-color: inherit;
+  color: white;
+}
+
+.block-page img {
+  max-width: 140px;
+}
+
+#editBtn,
+#editBtn2 {
+  border: none;
+  background-color: inherit;
+  font-size: 12px;
+  color: rgb(112, 112, 253);
+}
+
+#editBtn:focus,
+button,
+input:focus,
+select:focus {
+  outline: none;
+}
+
+#cancelBtn {
+  border: 1px solid #ffe560;
+  background-color: inherit;
+  font-size: 12px;
+  border-radius: 4px;
+  padding: 2px 15px;
+}
+
+#saveBtn {
+  border: none;
+  background-color: #ffe560;
+  font-size: 12px;
+  color: white;
+  border-radius: 4px;
+  margin-right: 15px;
+  padding: 3px 20px;
+}
+
+#uploadBtn,
+#myFile {
+  border: none;
+  background-color: #ffe560;
+  font-size: 12px;
+  color: white;
+  border-radius: 4px;
+  margin: 15px;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+input:disabled {
+  border: none;
+}
+
+.custom-file-upload {
+  display: inline-block;
+  cursor: pointer;
+  margin: 15px;
+  background-color: #ffe560;
+  border-radius: 4px;
+  width: 97px;
+  color: black;
+}
+
+.custom-file-upload2 {
+  border: none;
+  background-color: #ffe560;
+  font-size: 12px;
+  color: black;
+  border-radius: 4px;
+  margin: 15px;
+  width: 97px;
+  cursor: pointer;
+}
+
+#file-label {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border: 1px solid green;
+  margin-bottom: 22px;
+}
+
+.error {
+  display: none;
+  color: rgb(246, 220, 220);
+  text-align: center;
+  font-size: 18px;
+  padding: 14px;
+}
+
+
+.loader {
+  display: none;
+  position: relative;
+  top: 40%;
+  z-index: 1;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  border: 7px solid #f3f3f3;
+  border-radius: 50%;
+<<<<<<< HEAD
+  border-top: 6px solid #9e2076;;
+=======
+  border-top: 6px solid #9e2076;
+>>>>>>> d722b5bec9c31cc3e7534b49c8256545c905912d
+  -webkit-animation: spin 5s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation to "page content" */
+
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0px;
+    opacity: 1
+  }
+}
+
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1
+  }
+}
+
+.myDiv {
+  display: none;
+  margin: 0 auto;
+  background-color: rgb(230, 230, 230);
+}
+
+#myDiv,
+#myDiv3 {
+  top: 10px;
+  height: 80%;
+  width: 80%;
+}
+
+#myDiv2,
+#myDiv4 {
+  top: 60px;
+  height: 90%;
+  width: 40%;
+}
+
+#myDiv2 i,
+#myDiv4 i {
+  color: green;
+  font-size: 130px;
+  margin-top: -40px;
+}
+
+#myDiv2 p,
+#myDiv4 p {
+  font-size: 12px;
+}
+
+#myDiv2 #sellOk,
+#myDiv4 #sellOk2 {
+  background-color: rgb(29, 172, 29);
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+}
+
+.quote {
+  width: 88%;
+  margin: 35px auto;
+}
+
+.quote tbody {
+  line-height: 2;
+}
+
+.quote th {
+  font-weight: 100;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+  background-color: #0a0a0a55;
+}
+
+.quote .total {
+  background-color: lightgray;
+}
+
+.total .total-title {
+  font-weight: bold;
+}
+
+.total .total-amt {
+  color: blue;
+}
+
+.myDiv h5 {
+  padding-top: 20px;
+  color: blue;
+}
+
+.myDiv .checkout {
+  float: right;
+  margin-right: 37px;
+  background-color: none;
+  border: 1px solid blue;
+  padding: 5px 34px;
+  border-radius: 3px;
+  color: blue;
+}
+
+.exchange-calculator.text-center select {
+  padding: 12px 10px;
+  background: #4f103b;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.exchange-section.data_background.text-center h1 {
+  margin-bottom: 0px;
+}
+
+#money-xchange,
+#money-xchanges {
+  background: #edddf8 url(../images/uglogo.png) no-repeat scroll 272px;
+  background-size: 60px 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#coins-exchange,
+#coins-exchanges {
+  background-color: #edddf8;
+  border-radius: 5px;
+}
+
+.white-text,::placeholder{
+  color: #474747;
+}
+
+.black-text {
+  color: black;
+}
+
+#exchangeBtn,
+#exchangeBtn2 {
+  background-color: #9e2076;
+  padding: 14px 29px;
+  font: inherit;
+  margin-top: -4px;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.btn-dark{
+  border-color: #fff;
+}
+#exchangeBtn2 {
+  display: none;
+}
+
+.rates {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #2d2d2d;
+  line-height: 1.1;
+  font-weight: 500;
+}
+
+/* #sellrates { */
+/* float: right; */
+/* display: none; */
+/* margin-right: 101px; */
+/* } */
+
+#buyrates,
+#sellrates {
+  /* float: left;
+  margin-left: 487px; */
+  display: none;
+  width: 65%;
+
+}
+
+#rates-table {
+  line-height: 1.3;
+}
+
+#rates-table th {
+  font-size: 18px;
+}
+
+#rates-table td {
+  font-size: 17px;
+}
+
+.table-title {
+  color: #ffe560;
+  font-size: 20px;
+}
+
+.table-titles {
+  font-weight: 900;
+}
+
+#rates-table td.yellow-text,
+.yellow-text {
+  color: #474747;
+}
+
+.trade {
+  width: 40%;
+  background-color: #0000001f;
+  margin: 15px auto;
+  color: white;
+  border-radius: 5px;
+  padding: 35px;
+  text-align: center;
+  display: none;
+}
+
+.trade input {
+  color: black;
+}
+
+.trade #buy {
+  height: 420px;
+}
+
+.trade #sell {
+  height: 350px;
+}
+
+.trade .row.cont {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #252525;
+  padding: 10px;
+}
+
+.payment-method {
+  padding: 6px 5px;
+  background: rgb(255, 255, 255);
+  color: black;
+}
+
+.trade .row.cont .col-lg-7.number {
+  border: none;
+  border-radius: 1px;
+  color: black;
+}
+
+.trade .row.cont .col-lg-4 {
+  font-size: 12px;
+}
+
+.trade .myBtn {
+  background-color: #252524;
+  color: #ffe560;
+  border: 1px solid #ffe560;
+  border-radius: 5px;
+  padding: 6px 20px;
+  font-size: 13px;
+}
+
+.trade input,
+.trade select {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+}
+
+#rates-table-header th {
+  color: #ffe560;
+  font-size: 15px;
+}
+
+.megamenu-li img {
+  max-width: 165px;
+  padding-top: -37px;
+  margin-left: 24px;
+  margin-top: -11px;
+}
+
+.active1 {
+  padding: 9px 20px;
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 2px;
+  color: black;
+}
+
+.trade-btn {
+  padding: 10px 20px;
+  background-color: #252525;
+  border: none;
+  border-radius: 3px;
+  color: #ffe560;
+}
+
+.new__button {
+  background: #4f103b;
+  padding: 14px 50px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%
+}
+
+h4#rates-text {
+  display: block;
+}
+
+.big-form {
+  display: none;
+}
+
+#loader3{
+  display: block;
+}
+
+.typewriter h3 {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid black;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  100% {
+    border-color: black
+  }
+}
+
+#login:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+.warning-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+
+  color: #9F6000;
+  background-color: #FEEFB3;
+}
+
+.container .row#login-row {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.content-1 {
+  margin-right: 85px;
+  margin-top: 65px;
+  padding: 20px;
+}
+
+.pannel-landing-page.data_background {
+  height: 100%;
+  background-position: right;
+  /* padding: 0px 20px */
+}
+
+.login-informations {
+  margin-top: 205px;
+}
+
+#medium {
+  display: none;
+}
+
+#registered-yet {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+#registered-yet2 {
+  display: none;
+}
+
+#order-row {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#order2 {
+  display: block;
+}
+
+@media only screen and (max-width: 350px) {
+  .megamenu-li img {
+    margin-left: 4px;
+  }
+
+  #logout-smallscreen {
+    display: block;
+  }
+
+  #logout-bigscreen, #acc-bigScreen {
+    display: none;
+  }
+
+
+
+  .pannel-landing-page.data_background {
+    padding: 0px 10px
+  }
+
+  #rates-table th {
+    font-size: 14px;
+  }
+
+  #rates-table td {
+    font-size: 12px;
+  }
+
+  .pricing-tables-live table {
+    min-width: 0;
+  }
+
+  /* .loader {
+    left: 37%;
+  } */
+
+}
+
+@media only screen and (max-width: 460px) {
+  #logout-smallScreen {
+    display: block;
+  }
+
+  #logout-bigScreen, #acc-bigScreen {
+    display: none;
+  }
+
+  #indexrates {
+    display: none;
+  }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media only screen and (max-width: 480px) {
+  .nav_menu {
+    display: inline-flex;
+  }
+
+  .navbar-right {
+    margin-right: 2px;
+    /* margin-left: 20%; */
+    width: 58%;
+  }
+
+  #rates-table th {
+    font-size: 14px;
+  }
+
+  #rates-table td {
+    font-size: 12px;
+  }
+
+  .pricing-tables-live table {
+    min-width: 0;
+  }
+
+  .exchange-section.data_background.text-center h1 {
+    width: 90%;
+  }
+
+  .right_col.right_col_exchange {
+    height: 100%;
+  }
+
+  .container .row#login-row {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .content-1 {
+    margin-right: 0;
+  }
+
+  .padding_30 {
+    padding: 25px;
+  }
+
+  .login-informations {
+    display: none;
+  }
+
+  #registered-yet {
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  #registered-yet h5 {
+    font-size: 20px;
+  }
+
+  #stepper-page .stepper.stepper-register ul li p {
+    display: none;
+  }
+
+  #registered-yet {
+    display: none;
+  }
+
+  #registered-yet2 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #registered-yet2 h3 {
+    text-align: center;
+  }
+
+  #order-row {
+    width: 90%;
+  }
+
+  #order-form {
+    margin-right: 0;
+  }
+
+  #order1 {
+    display: none;
+  }
+
+  #order2 {
+    display: block;
+  }
+
+  #index-col {
+    padding-top: 80px;
+  }
+
+  #money-exchange, 
+  #dcoin-exchange {
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 5px;
+  }
+  ::-webkit-input-placeholder {
+    color:#474747;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    color:#474747;
+    opacity: 1;
+}
+
+::-ms-placeholder {
+    color:#474747;
+    opacity: 1;
+}
+
+::placeholder {
+    color:#474747;
+    opacity: 1;
+}
+  #money-xchange,
+  #coins-exchange,
+  #coins-exchanges,
+  #money-xchanges{
+    width: 100%;
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  #exchangeBtn {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #money-xchange,
+  #money-xchanges{
+    background-position: right;
+    border-radius: 5px;
+  }
+
+  .equal{
+    line-height: 0px;
+    height: 0px;
+    padding: 10px 0;
+  }
+
+  .rowz {
+    width: 75%;
+  }
+
+  .exchange-calculator input {
+    width: 75%;
+  }
+
+  .exchange-calculator.text-center select {
+    padding: 9px 14px;
+  }
+
+  #coins-exchange,
+  #money-xchange,
+  #coins-exchanges,
+  #money-xchanges {
+    height: 40px;
+  }
+
+  #buyrates,
+  #sellrates {
+    float: none;
+    margin-right: 0;
+  }
+
+  #sellrates {
+    display: block;
+    /* float: none;
+    margin-left: 0; */
+  }
+
+  #money-xchangev,
+  #coins-exchangev,
+  #money-xchangevs,
+  #coins-exchangevs,
+  #money-xchangevu,
+  #coins-exchangevu {
+    background: #edddf8;
+  }
+
+  #to-sell {
+    display: none;
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .data_background {
+    padding: 0 !important;
+  }
+
+  .content-1 {
+    padding: 0
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .login-informations {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  #login-informations1 {
+    display: none;
+  }
+
+  .padding_30 {
+    padding: 30px;
+  }
+
+  .content-1 {
+    margin-right: 0;
+  }
+
+  .pannel-landing-page h3,
+  .pannel-landing-page h1 {
+    text-align: center;
+  }
+
+  #registered-yet {
+    display: none;
+  }
+
+  #registered-yet2 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  #order-row {
+    width: 90%;
+  }
+
+  #order-form {
+    margin-right: 0;
+  }
+
+  #order1 {
+    display: none;
+  }
+
+  #order2 {
+    display: block;
+  }
+
+  /* #buyrates, #sellrates {
+    margin-right: 30px;
+  } */
+
+  /* #sellrates {
+    margin-left: 226px;
+  } */
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  #amount,
+  #receive,
+  #network_fees,
+  #total_amount {
+    color: white;
+    background: grey;
+  }
+
+  .padding_30 {
+    padding: 25px;
+  }
+
+  .content-1 {
+    width: 60%;
+    margin: 50px auto 0;
+    float: none;
+  }
+
+  .login-informations {
+    margin-top: 168px;
+  }
+
+  #registered-yet {
+    margin-top: 175px;
+  }
+
+  #registered-yet h2,
+  #registered-yet h1,
+  #registered-yet h5 {
+    text-align: left;
+  }
+
+  #registered-yet a {
+    margin-right: 129px;
+  }
+
+  #order-row {
+    width: 90%;
+  }
+
+  .login-informations {
+    margin-top: 0;
+    text-align: center;
+  }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+  .content-1 {
+    width: 60%;
+    margin: 20px auto 0;
+    float: none;
+  }
+
+  .login-informations {
+    margin-top: 0;
+    text-align: center;
+  }
+
+  .padding_30 {
+    padding: 25px;
+  }
+
+  #registered-yet {
+    margin-top: 175px;
+  }
+
+  #registered-yet h2,
+  #registered-yet h1,
+  #registered-yet h5 {
+    text-align: left;
+  }
+
+  #registered-yet a {
+    margin-right: 129px;
+  }
+
+  #order-row {
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 136px;
+    background-size: 50px 30px;
+
+  }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 850px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 146px;
+    background-size: 50px 30px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 940px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 158px;
+    background-size: 50px 30px;
+  }
+}
+
+@media only screen and (min-width: 941px) and (max-width: 980px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 165px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 981px) and (max-width: 1030px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 180px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 1031px) and (max-width: 1100px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 197px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1150px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 206px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 1151px) and (max-width: 1200px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 220px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1250px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 233px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 1251px) and (max-width: 1300px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 248px;
+    background-size: 60px 40px;
+  }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1350px) {
+
+  #money-xchange,
+  #money-xchanges {
+    background: #edddf8 url(../images/uglogo.png) no-repeat scroll 255px;
+    background-size: 60px 40px;
+  }
+}

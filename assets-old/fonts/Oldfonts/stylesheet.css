@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'HybridLightW08';
+    src: url('assets/fonts/HybridLightW08-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HybridExtraBoldW08';
+    src: url('assets/fonts/HybridExtraBoldW08-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'HybridBoldW08';
+    src: url('assets/fonts/HybridBoldW08-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HybridMediumW08';
+    src: url('assets/fonts/HybridMediumW08-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HybridW01';
+    src: url('assets/fonts/HybridW01-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/ico" />
+    <title>Binusu - Buy and sell Crypto</title>
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="assets/fonts/cryptocoins.css" rel="stylesheet"> -->
+    <!-- Simple line icons -->
+    <!-- <link href="assets/css/simple-line-icons.css" rel="stylesheet"> -->
+    <!-- Font style sheet -->    
+    <link href="assets/fonts/stylesheet.css" rel="stylesheet">
+    <!-- Custom Style -->
+    <link href="assets/plugins/select2/select2.min.css" rel="stylesheet">
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/customs.css" rel="stylesheet">
+    <link id="ui-current-skin" href="assets/css/skin-colors/skin-yellow.css" rel="stylesheet">
+    <!-- <link href="assets/css/media.css" rel="stylesheet"> -->
+    <!-- Charts -->
+    <link href="assets/plugins/rickshaw/rickshaw.min.css" rel="stylesheet">
+    <!-- Custom Font -->
+    <script src="assets/js/crypto-charts.js"></script>
+    <link rel="stylesheet" href="assets/css/user-page.css">
+    <!-- FONT ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body class="nav-md preloader-off developer-mode">
+    <div id="st-container" class="st-container st-effect">
+        <!-- MAIN PAGE CONTAINER -->
+        <div class="body">
+            <div class="main_container">
+
+                <!-- NAVIGATION -->
+                <div class="navbar navbar-expand-md">
+                    <div class="container">
+                        <div id="logo">
+                            <a class="navbar-brand" href="/">
+                                <object data="assets/images/binusu-logo.png" width="100"></object>
+                                <!-- <img src="assets/images/binusu-logo.png"> -->
+                            </a>
+                        </div>                
+                
+                        <span class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                            <i class="bi bi-list"></i> Menu
+                        </span>
+                
+                        <div class="collapse navbar-collapse" id="navbarContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item cursor_none" id="orders">
+                                    <a class="nav-link" href="history.html"></a>
+                                </li>
+                                <li class="nav-item" id="home">
+                                    <a class="nav-link" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item" id="ussd">
+                                    <img src="assets\images\ussd.png" width="55">
+                                    <a class="nav-link" href="ussd.html">USSD</a>
+                                </li>
+                                
+                                <li class="nav-item" id="blog">
+                                    <a class="nav-link" href="https://binusu.medium.com/" target=”_blank”>Blog</a>
+                                </li>
+                                <li class="nav-item" id="login-bigScreen">
+                                    <a class="nav-link" href="otc-form-login.html">Login</a>
+                                </li>
+                                <li class="nav-item" id="logout-bigscreen">
+                                    <a class="nav-link">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PAGE CONTENT -->
+                <div class="right_col right_col_exchange the_right">
+                    <div class="exchange-section data_background text-center"
+                        data-background=''>
+                        <h1 class="text-center">Buy and Sell Crypto</h1><h3>Competitive Rates, Convenient and Fast</h3>
+                        <!-- <h4>Get your Binusu account to start accepting payments and <br>
+                            sending money with 3 million people just like you.</h4>                         -->
+                        <div class="exchange-calculator text-center" id="calc">
+ 
+                            <div class="loader" id="loader3">
+                            </div>
+                            <h4 id="rates-text">Loading Rates</h4>
+                            <form action="" id="big-form" class="big-form">
+                                <select class="money-exchange" id="money-exchange" name="state">
+                                    <option selected disabled>Select Action</option>
+                                    <option value="buy">BUY</option>
+                                    <option value="sell">SELL</option>
+                                </select>
+
+                                <select class="coins-exchange" id="dcoin-exchange" name="coins">
+                                    <option selected disabled>Select Crypto</option>
+                                    <option value="BTC">BTC</option>
+                                    <option value="ETH">ETH</option>
+                                    <option value="USDT">USDT</option>
+                                    <option value="cUSD">cUSD</option>
+                                    <option value="CELO">CELO</option>
+                                    <option value="BCH">BCH</option>
+                                    <option value="LTC">LTC</option>
+                                    <option value="BNB">BNB</option>
+                                    <option value="SEA">SEA</option>
+                                </select>
+
+                                <br><br>
+                                <div class="loader" id="loader2"></div>
+                                <div class="loader" id="loader"></div>
+                                <div class="err" id="error11" style="text-align: left;">
+                                    <span id="err11"></span>
+                                </div>
+
+                                <span id="input-boxes">
+                                    <input type="number" class="white-text" id="money-xchange" name="money-exchange"
+                                        placeholder="Enter Amount in UGX">
+
+                                    <div class="equal"> = </div>
+
+                                    <input type="number" class="white-text" id="coins-exchange" name="coins-exchange">
+                                </span>
+
+                                <span id="input-boxes2">
+
+                                    <input type="number" class="white-text" id="coins-exchanges" name="coins-exchange"
+                                        placeholder="Enter Amount">
+
+                                    <div class="equal"> = </div>
+
+                                    <input type="number" class="white-text" id="money-xchanges" name="money-exchange">
+
+                                </span>
+
+                                <br>
+
+                                <div class="rates" id="buyrates">
+                                    <span>Min Buy:&nbsp;<span class="black-text" id="minimumBuy"></span>
+                                        UGX</span>
+                                    <br>
+                                    <span>Max Buy: <span class="black-text" id="maximumBuy"></span>
+                                        UGX </span>
+                                    <br>
+                                    <span>Average Network fees:&nbsp;
+                                        <span class="black-text" id="networkFee"></span>
+                                        UGX</span>
+                                </div>
+
+                                <div class="rates" id="sellrates">
+                                    <span>Min Sell: <span class="black-text" id="minimumSell"> &nbsp;</span>
+                                    </span>
+                                    <br>
+                                    <span>Max Sell: <span class="black-text" id="maximumSell"> </span> </span>
+                                    <br>
+                                    <span>Network fees:&nbsp;<span class="black-text"
+                                            id="networkFee">250</span>&nbsp;UGX</span>
+                                </div>
+
+                            </form>
+                        </div>
+
+                        <a class="btn btn-dark" id="exchangeBtn">Exchange
+                            Now</a>
+
+                    </div>
+
+                    <div class="clearfix"></div>
+                    <div class="spacer_30"></div>
+                    <div class="margin_left_right_30">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="panel panel-default exchange">
+                                    <div class="panel-body">
+                                        <div>
+                                            <script type="text/javascript">
+                                                cryptoChart("BTC");
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="panel panel-default exchange">
+                                    <div class="panel-body">
+                                        <script type="text/javascript">
+                                            cryptoChart("CELO");
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="panel panel-default exchange">
+                                    <div class="panel-body">
+                                        <script type="text/javascript">
+                                            cryptoChart("ETH");
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-4">
+                                <div class="panel panel-default exchange">
+                                    <div class="panel-body">
+                                        <script type="text/javascript">
+                                            cryptoChart("CELOUSD");
+                                        </script>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                  
+                    </div>
+                </div>
+                    <div class="row" id="indexRates">
+                        <div class="spacer_30"></div>
+                        <div class="col-xs-12">
+                            <div class="table table-striped background-black pricing-tables-live element-box-shadow no-margin">
+                                <table id="rates-table">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="5">RATES PER COIN</th>
+                                        </tr>
+                                        <tr class="table-titles">
+                                            <th>SYMBOL</th>
+                                            <th>NAME</th>                                            
+                                            <th>BUYING (UGX)</th>
+                                            <th>SELLING (UGX)</th>
+                                            <!-- <th>CHART</th> -->
+                                        </tr>
+                                    </thead>
+                    
+                                    <tbody>
+                                        <tr>
+                                            <td>BTC</td>
+                                            <td>Bitcoin</td>
+                                            <td id="btcbuy" class="yellow-text"></td></td>
+                                            <td id="btcsell" class="yellow-text"></td></td>
+                                            <!-- <td><img loading="lazy" width="115" height="25" alt="bitcoin (BTC) 7d chart" src="https://www.coingecko.com/coins/1/sparkline"></td> -->
+                    
+                                        </tr>
+                                        <tr>
+                                            <td class="yellow-text">ETH</td>
+                                            <td class="yellow-text">Ether</td>
+                                            <td id="ethbuy" class="yellow-text"></td></td>
+                                            <td id="ethsell" class="yellow-text"></td></td>
+                                            <!-- <td><img loading="lazy" width="115" height="25" alt="ethereum (ETH) 7d chart" src="https://www.coingecko.com/coins/279/sparkline"></td> -->
+                    
+                                        </tr>
+                                        <tr>
+                                            <td class="yellow-text">LTC</td>
+                                            <td class="yellow-text">Litecoin</td>
+                                            <td id="ltcbuy" class="yellow-text"></td>
+                                            <td id="ltcsell" class="yellow-text"></td>
+                                            <!-- <td><img loading="lazy" width="115" height="25" alt="litecoin (LTC) 7d chart" src="https://www.coingecko.com/coins/2/sparkline"></td> -->
+                    
+                                        </tr>
+                                        <tr>
+                                            <td class="yellow-text">cUSD</td>
+                                            <td class="yellow-text">Celo</td>
+                                            <td id="cusdbuy" class="yellow-text"></td>
+                                            <td id="cusdsell" class="yellow-text"></td>
+                                            <!-- <td><img loading="lazy" width="115" height="25" alt="celo dollar (CUSD) 7d chart" src="https://www.coingecko.com/coins/13161/sparkline"></td> -->
+
+                    
+                                        </tr>
+                                        <tr>
+                                            <td class="yellow-text">BCH</td>
+                                            <td class="yellow-text">Bitcoin Cash</td>
+                                            <td id="bchbuy" class="yellow-text"></td>
+                                            <td id="bchsell" class="yellow-text"></td>
+                                            <!-- <td><img loading="lazy" width="115" height="25" alt="bitcoin cash (BCH) 7d chart" src="https://www.coingecko.com/coins/780/sparkline"></td> -->
+                    
+                                        </tr>
+                                        <tr>
+                                            <td class="yellow-text">CELO</td>
+                                            <td class="yellow-text">CELO</td>
+                                            <td id="celobuy" class="yellow-text"></td>
+                                            <td id="celosell" class="yellow-text"></td>
+                                            <!-- <td><img loading="lazy" width="115" height="25" alt="celo (CELO) 7d chart" src="https://www.coingecko.com/coins/11090/sparkline"></td> -->
+                    
+                                        </tr>
+                    
+                                    </tbody>
+                                </table>
+                    
+                    
+                            </div>
+                        </div>
+                    </div>
+                <a href="#" class="scrollToTop"><i class="fa fa-chevron-up text-white" aria-hidden="true"></i></a>
+                <!-- PAGE FOOTER -->
+                <footer>
+                    <div>
+                        Copyright &copy; Binusu
+                        <script>document.write(new Date().getFullYear());</script> All rights reserved
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+            </div>
+
+        </div>
+        <!-- RIGHT SIDE: SEARCH FORM -->
+        <div class="search search-main">
+            <div id="btn-search-close" class="btn btn--search-close" aria-label="Close search form">
+                <i class="fa fa-times"></i>
+            </div>
+            <form class="search__form" action="search.html">
+                <input class="search__input" name="search" type="search" placeholder="Hash, transactions..."
+                    autocapitalize="off" spellcheck="false" />
+                <span class="search__info">Hit enter to search or ESC to close</span>
+            </form>
+        </div>
+        <!-- JS SCRIPTS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollbar.min.js"></script>
+        <script src="assets/plugins/modernizr/modernizr.custom.js"></script>
+        <script src="assets/plugins/classie/classie.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="assets/plugins/select2/select2.min.js"></script>
+
+        <!-- Custom Theme Scripts -->
+        <script src="assets/js/preloader.min.js"></script>
+        <script src="env/env.js"></script>
+        <script src="assets/js/utilities.js"></script>
+        <script src="assets/js/selectController.js"></script>
+        <script src="assets/js/exchange-now.js"></script>
+        <script src="assets/js/logout.js"></script>
+    </div>
+</body>
+
+</html>

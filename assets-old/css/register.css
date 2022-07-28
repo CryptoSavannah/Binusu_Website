@@ -1,0 +1,22 @@
+.pannel-landing-page.data_background.text-center {
+    height: 100%;
+    background-position: right;
+    padding: 0px 30px;
+}
+
+#row1 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.panel.panel-default.data_background.element-box-shadow.no-margin.register-v2 {
+    padding-top: 20px;
+}
+
+#bnu_logo {
+    max-width: 175px;
+}
+
+#stepper-page {
+    padding: 0px 15px 25px 15px;
+}
