@@ -7889,6 +7889,7 @@ body#in-review-2020 .b-yir-indicator:not(.is-active):hover {
 .text-indigo-500 {
   --tw-text-opacity: 1;
   color: rgb(184 31 135 / var(--tw-text-opacity));
+  font-family: Neutro;
 }
 .text-color-900 {
   color: var(--color-900);
@@ -7903,6 +7904,7 @@ body#in-review-2020 .b-yir-indicator:not(.is-active):hover {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+  font-family: 'Neutro';
 }
 .text-color-400 {
   color: var(--color-400);
@@ -8489,6 +8491,7 @@ body.has-keyboard .focus-within-outline:focus-within {
 .hover\:text-indigo-500:hover {
   --tw-text-opacity: 1;
   color: rgb(184 31 135 / var(--tw-text-opacity));
+  font-family: 'Neutro';
 }
 .hover\:text-color-800:hover {
   color: var(--color-800);
