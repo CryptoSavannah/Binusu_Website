@@ -1666,7 +1666,7 @@ body.is-hidden-infobar [ob-infobar] {
 .b-button--mint {
   --tw-text-opacity: 1;
   --color: #b81f88;
-  --color-hover: #b81f885;
+  --color-hover: #88025d;
   --color-active: #b81f87;
 }
 .b-button--indigo {
@@ -2753,7 +2753,8 @@ input:focus + .c-focus-label {
   color: var(--color-900);
 }
 .b-link:hover .b-link__icon {
-  color: var(--accent-500);
+  /* color: var(--accent-500); */
+  color:#b81f88;
 }
 .b-link:active,
 .b-link:active .b-link__icon {
