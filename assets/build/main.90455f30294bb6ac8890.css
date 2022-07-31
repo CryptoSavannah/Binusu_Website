@@ -2503,6 +2503,14 @@ body.is-hidden-infobar [ob-infobar] {
   font-weight: 500;
   line-height: 1.2;
 }
+.b-heading-sec {
+  --tw-text-opacity: 1;
+  color: white;
+  font-family: Neutro, Helvetica, Arial;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
 @media (min-width: 900px) {
   .b-heading {
     font-size: 2.625rem;
