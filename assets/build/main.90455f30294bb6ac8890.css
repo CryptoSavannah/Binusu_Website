@@ -1048,7 +1048,8 @@ body.is-hidden-infobar [ob-infobar] {
   position: relative;
 }
 .b-article-card__link {
-  color: var(--accent-500);
+  /* color: var(--accent-500); */
+  color: purple;
   font-size: 1rem;
   font-weight: 500;
   left: 0;
@@ -2770,7 +2771,8 @@ input:focus + .c-focus-label {
 }
 .b-link2 {
   align-items: center;
-  color: rgb(55 61 67 / var(--tw-text-opacity));
+  /* color: rgb(55 61 67 / var(--tw-text-opacity)); */
+  color:white;
   display: inline-flex;
   font-size: 1rem;
   font-weight: 500;
@@ -2799,7 +2801,8 @@ input:focus + .c-focus-label {
 }
 .b-link2:hover {
   --tw-text-opacity: 1;
-  color: rgb(184 31 135 / var(--tw-text-opacity));
+  /* color: rgb(184 31 135 / var(--tw-text-opacity)); */
+  color: var(--accent-100);
 }
 .b-link2:active,
 .b-link2:active .b-link2__icon {
