@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/ico" />
+    <title>Binusu.com - Register</title>
+    <!-- CSS -->
+    <!-- Bootstrap -->
+    <link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/dataTables/jquery.dataTables.min.css" rel="stylesheet">
+    <!-- Simple line icons -->
+    <link href="assets/css/simple-line-icons.css" rel="stylesheet">
+    <link href="assets/fonts/cryptocoins.css" rel="stylesheet">
+    <!-- Custom Style -->
+    <link href="assets/css/custom.css" rel="stylesheet">
+    <link href="assets/css/customs.css" rel="stylesheet">
+    <!-- <link href="assets/css/media.css" rel="stylesheet"> -->
+    <link id="ui-current-skin" href="assets/css/skin-colors/skin-yellow.css" rel="stylesheet">
+    <!-- Custom Font -->
+    <link href="assets/fonts/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/register.css">
+    <style>
+        @media only screen and (min-device-width: 1280px) and (min-device-height: 999px) {
+            .container {
+                width: 100%;
+                padding: 0;
+                height: 100%;
+            }
+        }
+
+        @media only screen and (max-device-width: 1354px) and (max-device-height: 999px) {
+            .container {
+                width: 100%;
+                padding: 0;
+                height: 100%;
+            }
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        .main_container {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body class="nav-md preloader-off developer-mode">
+    <div class="pace-cover"></div>
+    <div id="st-container" class="st-container st-effect">
+        <!-- MAIN PAGE CONTAINER -->
+        <div class="container body">
+            <div class="main_container">
+
+                <!-- PAGE CONTENT -->
+                <div class="right_col right_col_exchange">
+                    <div class="pannel-landing-page data_background text-center"
+                        data-background="assets/images/background_register.png">
+                        <div>
+                            <div class="row" id="row1">
+                                <div class="col-md-6 col-lg-6  content-1" id="register-panel">
+                                    <div class="panel panel-default data_background element-box-shadow no-margin register-v2"
+                                        data-background="assets/images/background_register.png">
+
+                                        <div class="panel-heading text-left padding_30" style="text-align: center">
+                                            <a href="#"><img src="assets/images/binusu-logo.png" alt="cryptic-logo"
+                                                    id="bnu_logo"></a>
+
+                                            <h3 class="no-margin text-bold" style="font-size: 16px;">Complete
+                                                Verification to Proceed</h3>
+                                        </div>
+                                        <div class="panel-body" id="stepper-page">
+                                            <div class="stepper stepper-register">
+                                                <ul class="nav nav-tabs" role="tablist">
+                                                    <li role="presentation" class="active">
+                                                        <a class="persistant-disabled" href="#stepper-reg-1"
+                                                            data-toggle="tab" aria-controls="stepper-reg-1" role="tab"
+                                                            title="Step 1">
+                                                            <span class="round-tab">1</span>
+                                                        </a>
+                                                        <p class="text-bold text-white">Personal Details</p>
+                                                    </li>
+                                                    <li role="presentation" class="disabled">
+                                                        <a class="persistant-disabled" href="#stepper-reg-2"
+                                                            data-toggle="tab" aria-controls="stepper-reg-2" role="tab"
+                                                            title="Step 2">
+                                                            <span class="round-tab">2</span>
+                                                        </a>
+                                                        <p class="text-bold text-white">Contact Details</p>
+                                                    </li>
+                                                    <li role="presentation" class="disabled">
+                                                        <a class="persistant-disabled" href="#stepper-reg-3"
+                                                            data-toggle="tab" aria-controls="stepper-reg-3" role="tab"
+                                                            title="Step 3">
+                                                            <span class="round-tab">3</span>
+                                                        </a>
+                                                        <p class="text-bold text-white">Account Setup</p>
+                                                    </li>
+
+                                                </ul>
+                                                <form method="POST">
+                                                    <div class="tab-content">
+                                                        <div class="tab-pane fade in active" role="tabpanel"
+                                                            id="stepper-reg-1">
+                                                            <div class="row">
+                                                                <div class="col-md-6">
+                                                                    <label class="text-bold text-white"
+                                                                        for="fname"><b>First Name</b></label><br>
+                                                                    <input type="text" placeholder="First Name"
+                                                                        name="fname" id="fname" required>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <label class="text-bold text-white"
+                                                                        for="lname"><b>Last Name</b></label><br>
+                                                                    <input type="text" placeholder="Last Name"
+                                                                        name="lname" id="lname" required>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <label class="text-bold text-white"
+                                                                        for="nin"><b>National ID
+                                                                            Number (NIN)</b></label><br>
+                                                                    <input type="text" name="nin" id="nin" required>
+                                                                </div>
+
+                                                                <div class="err" id="error1">
+                                                                    * <span id="err"></span>
+                                                                </div>
+
+                                                                <div class="col-md-12">
+                                                                    <ul class="list-inline">
+                                                                        <li>
+                                                                            <a class="btn btn-cryptic next-step text-bold"
+                                                                                id="pg1" style="padding: 8px;">Next</a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div id="qtn">Already Have an Account?</div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="otc-form-login.html"
+                                                                                class="btn btn-cryptic text-bold"
+                                                                                id="loginBtn">
+                                                                                LOGIN</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" role="tabpanel" id="stepper-reg-2">
+
+                                                            <div class="col-md-6">
+                                                                <label class="text-bold text-white"
+                                                                    for="email"><b>Email</b></label><br>
+                                                                <input type="email" placeholder="Valid Email Address"
+                                                                    name="email" id="email" required>
+                                                            </div>
+
+                                                            <div class="col-md-6">
+                                                                <label class="text-bold text-white"
+                                                                    for="mobile"><b>Mobile Number <span
+                                                                            style="font-size: 12px;">(*only
+                                                                            MTN/Airtel)</span>
+                                                                    </b></label><br>
+                                                                <input type="tel"
+                                                                    placeholder="Valid Local Phone Number (07XXXXXXXX)"
+                                                                    name="mobile" id="tel" required>
+                                                            </div>
+                                                            <div class="err" id="error2">
+                                                                * <span id="err1"></span>
+                                                            </div>
+                                                            <div class="err" id="error3">
+                                                                * <span id="err2"></span>
+                                                            </div>
+                                                            <div class="err" id="error4">
+                                                                * <span id="err3"></span>
+                                                            </div>
+
+                                                            <ul class="list-inline">
+                                                                <li style="width: 100%;">
+                                                                    <!-- <a href="confirm-mail.php" class="btn btn-cryptic next-step text-bold" style="padding: 8px;">CREATE ACCOUNT</a> -->
+                                                                    <a class="btn btn-cryptic next-step text-bold"
+                                                                        style="padding: 8px;" id='pg2'>Next</a>
+
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="tab-pane fade" role="tabpanel" id="stepper-reg-3">
+
+                                                            <!-- <h5
+                                                                style="color: white; padding: 0; margin-top: -27px; text-align: center;">
+                                                                Please provide your NIN and copies of your National ID
+                                                                (front and
+                                                                back) and a selfie for verification purposes only.
+                                                            </h5>
+                                                            <div class="col-md-12">
+                                                                <label class="text-bold text-white"
+                                                                    for="nin"><b>National ID
+                                                                        Number (NIN)</b></label><br>
+                                                                <input type="text" name="nin" id="nin" required>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <label class="text-bold text-white"
+                                                                    for="nidf"><b>National ID
+                                                                        (Front)</b></label><br>
+                                                                <input type="file" class="white-text" name="nidf"
+                                                                    id="nidf" style="color: white;" required>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <label class="text-bold text-white"
+                                                                    for="nidb"><b>National ID
+                                                                        (Back)</b></label><br>
+                                                                <input type="file" placeholder="National ID Back"
+                                                                    class="white-text" style="color: white;" name="nidb"
+                                                                    id="nidb" required>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <label class="text-bold text-white"
+                                                                    for="selfie"><b>Selfie</b></label><br>
+                                                                <input type="file" placeholder="Selfie"
+                                                                    class="white-text" style="color: white;"
+                                                                    name="selfie" id="selfie" required>
+                                                            </div> -->
+                                                            <div class="col-md-12">
+                                                                <label class="text-bold text-white"
+                                                                    for="password"><b>Password</b></label><br>
+                                                                <input type="password" placeholder="Password"
+                                                                    id="password" required>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <label class="text-bold text-white"
+                                                                    for="confirm_password"><b>Confirm Password
+                                                                    </b></label><br>
+                                                                <input type="password" placeholder="Repeat the Password"
+                                                                    id="confirm_password" required>
+                                                            </div>
+                                                            <div class="err" id="error5">
+                                                                * <span id="err5"></span>
+                                                            </div>
+
+                                                            <div class="err" id="error6">
+                                                                * <span id="err6"></span>
+                                                            </div>
+                                                            <div class="col-md-12">
+                                                                <ul class="list-inline">
+                                                                    <li>
+                                                                        <div class="loader" id="loader"></div>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!-- onclick="register();" -->
+                                                                        <a class="btn btn-cryptic next-step text-bold"
+                                                                            style="padding: 8px;" id='pg3'>Register</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <!-- onclick="register();" -->
+                                                                        <a href="otc-form-login.html"
+                                                                            class="btn btn-cryptic next-step text-bold"
+                                                                            style="padding: 8px; margin-bottom: 13px;"
+                                                                            id='signin'>Login</a>
+                                                                    </li>
+                                                                    <br>
+                                                                    <li>
+                                                                        <!-- onclick="register();" -->
+                                                                        <a href="otc-form-register.html"
+                                                                            class="btn btn-cryptic next-step text-bold"
+                                                                            style="padding: 8px;" id='signup'>Try
+                                                                            Again</a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="col-md-4 col-lg-4 register-information" id="registered-yet">
+                                    <h1>
+                                        <span class="text-bold">Binusu</span> Exchange
+
+                                    </h1>
+
+
+                                    <h2><i class="fa fa-hand-o-left" aria-hidden="true"></i> Please fill in the Form to
+                                        carry on with your order</h2>
+
+                                    <div class="spacer_30"></div>
+                                    <h5>Already completed the Verification Steps?</h5>
+                                    <a class="btn btn-default btn-lg button-element" href="otc-form-login.html" title=""
+                                        style="padding: 9px 27px;">Proceed to Order Confirmation</a>
+
+                                </div> -->
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-md-4 col-lg-4 register-information" id="registered-yet2">
+
+
+
+                                    <h2><i class="fa fa-hand-o-up" aria-hidden="true"></i> Please fill in the Form to
+                                        complete your order</h2>
+
+                                    <div class="spacer_30"></div>
+                                    <h3>Already completed the Verification Steps?</h3>
+                                    <a class="btn btn-default btn-lg button-element" href="otc-form-login.html" title=""
+                                        style="padding: 9px 27px;">Proceed to Order Confirmation</a>
+
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <a href="#" class="scrollToTop"><i class="fa fa-chevron-up text-white" aria-hidden="true"></i></a> -->
+                </div>
+                <!-- PAGE FOOTER -->
+                <!-- <footer>
+                    <div class="pull-right">
+                        Copyright &copy; Binusu
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script> All rights reserved
+                    </div>
+                    <div class="clearfix"></div>
+                </footer> -->
+            </div>
+            <!-- RIGHT SIDE SIDEBAR NAVIGATION -->
+
+        </div>
+        <!-- RIGHT SIDE: SEARCH FORM -->
+
+        <!-- JS SCRIPTS -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollbar.min.js"></script>
+        <script src="assets/plugins/modernizr/modernizr.custom.js"></script>
+        <script src="assets/plugins/classie/classie.js"></script>
+        <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+        <script src="assets/plugins/dataTables/jquery.dataTables.min.js"></script>
+        <script src="assets/plugins/flipclock/flipclock.js"></script>
+        <!-- Custom Theme Scripts -->
+        <script src="assets/js/custom.min.js"></script>
+        <script src="assets/js/preloader.min.js"></script>
+
+        <!-- <script type="text/javascript" src="js/currPick.js"></script> -->
+        <script src="env/env.js"></script>
+        <script src="assets/js/utilities.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/register.js"></script>
+    </div>
+</body>
+
+</html>

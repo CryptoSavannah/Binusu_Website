@@ -87,14 +87,14 @@ textarea {
   margin: 0;
   padding: 0;
 }
-.money-exchange,
+/* .money-exchange,
 .coins-exchange{
   padding: 12px 10px;
   background: #4f103b;
   border: none;
   color: #fff;
   border-radius: 5px;
-}
+} */
 .post-ad{
   padding: 12px 10px;
   background: #4f103b;
@@ -1059,7 +1059,8 @@ body.is-hidden-infobar [ob-infobar] {
   top: 0;
 }
 .b-article-card__link:hover {
-  color: var(--accent-700);
+  /* color: var(--accent-700); */
+  color: rgb(95, 15, 95);
 }
 .b-article-card__link:active {
   color: var(--accent-800);
@@ -8696,8 +8697,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     margin-top: 0;
   }
   .sm\:my-160 {
-    margin-bottom: 10rem;
-    margin-top: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .sm\:my-screen-1\/2 {
     margin-bottom: 50vh;
@@ -9058,8 +9059,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     padding-top: 0.5rem;
   }
   .sm\:py-160 {
-    padding-bottom: 10rem;
-    padding-top: 10rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
   }
   .sm\:px-145 {
     padding-left: 9.0625rem;
@@ -9365,8 +9366,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     margin-top: 8rem;
   }
   .md\:my-160 {
-    margin-bottom: 10rem;
-    margin-top: 10rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .md\:mx-auto {
     margin-left: auto;
