@@ -8729,8 +8729,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     margin-top: 4.5rem;
   }
   .sm\:my-96 {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
   }
   .sm\:mb-64 {
     margin-bottom: 4rem;

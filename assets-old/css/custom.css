@@ -370,6 +370,9 @@ table.dataTable {
 .text-white {
     color: #fff;
 }
+.text-white-reg {
+    color: rgb(0, 0, 0);
+}
 
 .text-red {
     color: #e74c3c;
@@ -4264,7 +4267,7 @@ input.input-type-1.form-control:-moz-placeholder {
 
 .btn-cryptic {
     font-weight: bold;
-    color: #252525;
+    color: #fff;
 }
 
 /*19. User List*/
@@ -4940,7 +4943,7 @@ table#dataTable_crypto tr th:last-child {
 }
 
 .block-page {
-    background: #252525;
+    background: #f0f0f0;
     margin: 0 auto;
     box-shadow: 5px 5px 50px #252525;
     border-radius: 5px;
@@ -7984,13 +7987,14 @@ xcustom form elements
 }
 
 .register-v2 .panel-heading h3 {
-    color: #fff;
+    color: #000;
     font-weight: bold;
     text-align: center;
 }
 
 .register-v2 {
-    background-color: #252525;
+    /* background-color: #252525; */
+    background-color: white;
 }
 
 .stepper-register ul.nav li {
@@ -8007,9 +8011,9 @@ xcustom form elements
 }
 
 .stepper.stepper-register .active .round-tab {
-    color: #252525;
+    color: #fff;
     border: none;
-    background-color: #fff;
+    background-color: #4f103b;
 }
 
 #stepper-page .stepper.stepper-register .nav-tabs [data-toggle="tab"] {
@@ -8037,6 +8041,7 @@ xcustom form elements
     width: 100%;
     font-size: 16px;
     padding: 15px;
+    background-color: #4f103b;
 }
 
 .stepper.stepper-register .complete .round-tab {
@@ -8108,7 +8113,7 @@ xcustom form elements
 }
 
 .stepper.stepper-register .btn.btn-cryptic.next-step:hover {
-    color: #252525;
+    color: #fff;
     opacity: 0.8;
 }
 

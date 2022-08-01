@@ -29,16 +29,16 @@
 #cancelBtn,
 #reset-btn,
 #req-btn {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #reset-btn,
 #req-btn {
-  background: #ffe560;
+  background: #4f103b;
 }
 
 #ok {
-  background: #ffe560;
+  background: #4f103b;
   color: black;
   padding: 4px 26px;
   border-radius: 2px;
@@ -72,7 +72,7 @@
 }
 
 .btn.white-btn {
-  background: inherit;
+  background: #4f103b;
   color: white;
 }
 

@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 	const userId = getCookie("access_token");
 
 	if (userId === "") {
-		document.querySelector("#login-bigScreen").style.display = "inline-block";
+		document.querySelector("#login-bigScreen").style.visibility = "visible";
 		document.querySelector("#logout-bigscreen").style.display = "none";
 	} else {
 		document.querySelector("#login-bigScreen").style.display = "none";
-		document.querySelector("#logout-bigscreen").style.display = "inline-block";
+		document.querySelector("#logout-bigscreen").style.visibility = "visible";
 	}
 
 	const fetchData = async () =>
