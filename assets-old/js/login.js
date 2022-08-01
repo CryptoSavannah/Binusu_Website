@@ -90,3 +90,5 @@ document.addEventListener("DOMContentLoaded", function () {
 			});
 	}
 });
+
+404 page not found
