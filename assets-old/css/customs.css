@@ -289,11 +289,7 @@ input:disabled {
   margin: 0 auto;
   border: 7px solid #f3f3f3;
   border-radius: 50%;
-<<<<<<< HEAD
-  border-top: 6px solid #9e2076;;
-=======
   border-top: 6px solid #9e2076;
->>>>>>> d722b5bec9c31cc3e7534b49c8256545c905912d
   -webkit-animation: spin 5s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -479,6 +475,7 @@ input:disabled {
   margin-top: -4px;
   font-size: 17px;
   border-radius: 5px;
+  color: white;
 }
 .btn-dark{
   border-color: #fff;

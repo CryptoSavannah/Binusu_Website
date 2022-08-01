@@ -6187,8 +6187,8 @@ body#in-review-2020 .b-yir-indicator:not(.is-active):hover {
   margin-right: -1rem;
 }
 .my-96 {
-  margin-bottom: 6rem;
-  margin-top: 6rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 .mx-auto {
   margin-left: auto;
@@ -8697,8 +8697,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     margin-top: 0;
   }
   .sm\:my-160 {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
   }
   .sm\:my-screen-1\/2 {
     margin-bottom: 50vh;
@@ -8729,8 +8729,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     margin-top: 4.5rem;
   }
   .sm\:my-96 {
-    margin-bottom: 6rem;
-    margin-top: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
   }
   .sm\:mb-64 {
     margin-bottom: 4rem;
@@ -9366,8 +9366,8 @@ body.has-keyboard .focus-within-outline:focus-within {
     margin-top: 8rem;
   }
   .md\:my-160 {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
   }
   .md\:mx-auto {
     margin-left: auto;

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/ico" />
+  <title>Binusu.com - Confirm Mail</title>
+  <!-- CSS -->
+  <!-- Bootstrap -->
+  <link href="assets/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <!-- Simple line icons -->
+  <!-- <link href="assets/css/simple-line-icons.css" rel="stylesheet"> -->
+  <!-- Font awesome icons -->
+  <!-- <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+  <!-- Custom Style -->
+  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="assets/css/order-collection.css" rel="stylesheet">
+  <!-- <link href="assets/css/media.css" rel="stylesheet"> -->
+  <link id="ui-current-skin" href="assets/css/skin-colors/skin-yellow.css" rel="stylesheet">
+  <!-- Custom Font -->
+  <link href="assets/fonts/stylesheet.css" rel="stylesheet">
+  <style>
+    @media only screen and (max-width: 1000px) {
+      .block-page {
+        width: 85%;
+      }
+    }
+  </style>
+</head>
+
+<body id="confirm-mail" class="nav-md all-pages data_background preloader-off developer-mode"
+  data-background="assets/images/background.png">
+  <div class="st-container st-effect">
+    <div class="block-page text-center">
+      <i class="fa fa-check-circle" aria-hidden="true" style="font-size: 150px;
+        color: #ff6600;"></i>
+      <div class="order-detail" id="order-detail">
+        <h3 class="text-white text-bold">Your order has been placed!</h3>
+        <p class="text-white second-p">Your <span id="theorder"></span> order of <span id="coinorder"></span> has been
+            placed. Your order number is <span id="ordernumber"></span></p>
+        <p class="text-white second-p">A confirmation e-mail has been sent
+            to <span id="usermail">.</span></p>
+        <p class="text-white second-p">Please confirm your order by triggering the collection of mobile money of amount UGX <span id="mobileamount"></span> from your phone number <span id="phonenumber"></span></p>
+      </div>
+      <p class="text-white second-p">Join the <a href="https://t.me/joinchat/DRPqVBQITDQcO9dl"
+          style="color: #ff6600;">Binusu Telegram Group</a></p>
+    
+      <div id="timer"></div>
+      <a class="btn btn-default button-element" id="collectBtn">COLLECT MOBILE MONEY</a>
+      <a class="btn btn-default button-element" id="doneBtn">DONE</a>
+      <p><a href="index.html" id="ok">Cancel</a></p>
+    </div>
+    <!-- JS SCRIPTS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollbar.min.js"></script>
+    <script src="assets/plugins/modernizr/modernizr.custom.js"></script>
+    <script src="assets/plugins/classie/classie.js"></script>
+    <script src="assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="assets/js/custom.min.js"></script>
+    <script src="assets/js/preloader.min.js"></script>
+    <script src="env/env.js"></script>
+
+    <script src="assets/js/order-collection.js"></script>
+  </div>
+</body>
+
+</html>

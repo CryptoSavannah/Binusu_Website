@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/ico" />
+  <title>Binusu.com</title>
+  <!-- CSS -->
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link href="assets/fonts/cryptocoins.css" rel="stylesheet"> -->
+  <!-- Simple line icons -->
+  <!-- <link href="assets/css/simple-line-icons.css" rel="stylesheet"> -->
+  <link href="assets-old/fonts/stylesheet.css" rel="stylesheet">
+  <!-- Custom Style -->
+  <link href="assets-old/plugins/select2/select2.min.css" rel="stylesheet">
+  <link href="assets-old/css/custom.css" rel="stylesheet">
+  <link href="assets-old/css/customs.css" rel="stylesheet">
+
+  <link id="ui-current-skin" href="assets-old/css/skin-colors/skin-yellow.css" rel="stylesheet">
+  <!-- <link href="assets/css/media.css" rel="stylesheet"> -->
+  <!-- Charts -->
+  <link href="assets-old/plugins/rickshaw/rickshaw.min.css" rel="stylesheet">rc="assets/js/crypto-charts.js"></script>
+
+  <link rel="stylesheet" href="assets-old/css/user-page.css">
+
+  <!-- FONT ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body id="confirm-mail" class="nav-md all-pages data_background preloader-off developer-mode"
+  data-background="assets/images/background.png">
+  <div class="st-container st-effect">
+    <div class="block-page text-center">
+      <a><img src="assets-old/images/mail.png" alt="mail"></a>
+      <!-- <i class="fa fa-handshake-o" aria-hidden="true" style="font-size: 150px;
+        color: yellow;"></i> -->
+      <h3 class="text-white text-bold"> Password Reset</h3>
+      <p class="text-white second-p">A password reset confirmation email has been sent to <span id="u_email"></span>. <br>
+        </p>
+      <p class="text-white second-p">Check your email address to set a new password for your account.
+      </p>
+      <!-- <p><a href="otc-form-login.html" style="color: #ffe560;">Ok</a></p> -->
+    </div>
+    <!-- JS SCRIPTS -->
+    <script src="assets-old/js/jquery.min.js"></script>
+    <script src="assets-old/js/jquery.scrollbar.min.js"></script>
+    <script src="assets-old/plugins/modernizr/modernizr.custom.js"></script>
+    <script src="assets-old/plugins/classie/classie.js"></script>
+    <script src="assets-old/plugins/bootstrap/bootstrap.min.js"></script>
+    <!-- Custom Theme Scripts -->
+    <script src="assets-old/js/utilities.js"></script>
+    <script src="assets-old/js/custom.min.js"></script>
+    <script src="assets-old/js/preloader.min.js"></script>
+    <script>
+      
+      document.getElementById("u_email").innerHTML = localStorage.getItem("u_email");
+    </script>
+  </div>
+</body>
+
+</html>

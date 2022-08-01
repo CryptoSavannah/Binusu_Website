@@ -2,13 +2,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 	const userId = getCookie("access_token");
 
 	if (userId === "") {
-		document.querySelector("#login-bigScreen").style.display = "block";
+		document.querySelector("#login-bigScreen").style.display = "inline-block";
 		document.querySelector("#logout-bigscreen").style.display = "none";
-		document.querySelector("#orders").style.display = "none";
 	} else {
 		document.querySelector("#login-bigScreen").style.display = "none";
-		document.querySelector("#logout-bigscreen").style.display = "block";
-		document.querySelector("#orders").style.display = "block";
+		document.querySelector("#logout-bigscreen").style.display = "inline-block";
 	}
 
 	const fetchData = async () =>
